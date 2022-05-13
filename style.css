@@ -6,7 +6,7 @@
 .intro{
     justify-content: center;
     align-items: center;
-    background-image: url(./banner.jpg);
+    background-image: url(./picture/banner.jpg);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -78,4 +78,10 @@ height: 100%;
 .about .container .row1{
     width: 50%;
     
+}
+.number .row .col h1{
+    color: #dd4f72;
+    font-size: 50px;
+    padding: 0;
+    font-weight: bold;
 }
