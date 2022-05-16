@@ -243,6 +243,88 @@ ol {
 
 .intro {
   margin-top: 100px;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./picture/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  background-color: white;
+
+  position: relative;
+}
+
+.intro .color-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  opacity: 0.9;
+  position: absolute;
+}
+.intro .container {
+  z-index: 1;
+}
+.intro button {
+  z-index: 1;
+  font-size: 15px;
+  font-weight: 500;
+  width: 150px;
+  height: 50px;
+}
+.intro .con-second {
+  transform: rotate(180deg);
+  width: 40%;
+  height: 100%;
+}
+
+/*     <!-- Tools --> */
+.tool .container {
+  text-align: center;
+  width: 70%;
+}
+.tool .tool1 h3 {
+  color: #dd4f72;
+}
+.tool .tool1 h1 {
+  font-size: 50px;
+  font-weight: 500;
+}
+.tool .tool1 p {
+  font-size: 18px;
+}
+.tool .tool2 {
+  width: 100%;
+  padding: 0;
+  height: 100%;
+}
+.tool .col h1 {
+  font-size: 25px;
+  padding: 10px 0px;
+  padding-top: 10%;
+}
+.tool .col {
+  height: inherit;
+}
+
+/*     <!-- About Company --> */
+
+.about .container .row1 h3 {
+  color: #dd4f72;
+}
+.about .container .row {
+  width: 50%;
+}
+.about .container .row1 {
+  width: 50%;
+}
+
+/* Number Couting */
+
+.number .row .col h1 {
+  color: #dd4f72;
+  font-size: 50px;
+  padding: 0;
+  font-weight: bold;
 }
 
 /* <!-- Footer --> */
