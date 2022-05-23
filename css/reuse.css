@@ -78,3 +78,7 @@ a.btn-news span {
   border-top-right-radius: 6px;
   line-height: 24.5px;
 }
+
+.main-box-shadow {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
