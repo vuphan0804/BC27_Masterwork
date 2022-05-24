@@ -162,6 +162,12 @@ ol {
   left: 0px;
   transition: all 0.5s;
 }
+
+.header .navbar-collapse .navbar-menu a.drop-item::before {
+  left: 25px;
+  bottom: 2px;
+}
+
 .header .navbar-collapse .navbar-menu a:hover::before {
   width: 20px;
 }

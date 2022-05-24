@@ -1,25 +1,6 @@
 @import url(../css/style.css);
 @import url(../css/reuse.css);
 
-nav#breadcrumbs {
-  padding: 15px 20px;
-  background: var(--light-bg-color);
-  margin-top: 90px;
-  font-size: 14px;
-}
-
-.breadcrumbs a,
-.breadcrumbs a:hover {
-  text-decoration: none;
-  color: var(--primary);
-  margin: 0 5px 0 0;
-  font-size: 14px;
-}
-
-.breadcrumbs a:hover {
-  text-decoration: underline;
-}
-
 /* Blog Carousel */
 .blog-carousel {
   background: var(--light-bg-color);
