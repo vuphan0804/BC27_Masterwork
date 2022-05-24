@@ -17,7 +17,7 @@ a {
 .contact {
   color: #212529;
   line-height: 24px;
-  margin: 0px 159.6px;
+  margin: 0px 100px;
   padding: 48px 25px;
   text-align: left;
 }
@@ -119,7 +119,7 @@ textarea {
 .help-main {
   color: #212529;
   line-height: 24px;
-  margin: 0px 159.6px;
+  margin: 0px 100px;
   padding: 16px 25px;
   text-align: left;
 }
@@ -153,8 +153,8 @@ textarea {
   color: #212529;
   gap: 50px;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 230px;
-  line-height: 240px;
+  grid-template-rows: 250px;
+  line-height: 230px;
   text-align: left;
 }
 
