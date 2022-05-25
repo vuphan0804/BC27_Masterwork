@@ -264,6 +264,26 @@ ol {
   white-space: nowrap;
 }
 
+.header #icon-menu {
+  color: var(--primary);
+  font-size: 30px;
+  line-height: 80px;
+  margin-left: 10px;
+  cursor: pointer;
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .header #icon-menu {
+    display: block;
+  }
+
+  .header .navbar-menu,
+  .header .item-btn {
+    display: none !important;
+  }
+}
+
 .btn-hover-primary:hover {
   color: #fff !important;
   background-color: var(--primary);
