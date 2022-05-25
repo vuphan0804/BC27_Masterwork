@@ -1,5 +1,6 @@
 @import url(./reuse.css);
 @import url(../pages/blogPost.css);
+@import url(../about/about.css);
 
 * {
   margin: 0;
@@ -393,6 +394,73 @@ ol {
   position: absolute;
 }
 /* Explore Solutions */
+
+/* News Section */
+.news-section {
+  background: var(--light-bg-color);
+}
+
+.news-section .accordion h2 {
+  font-size: 20px;
+  line-height: 1;
+  font-weight: normal;
+  display: block;
+  margin: 0;
+  cursor: pointer;
+  color: var(--title-color);
+}
+
+.news-section .accordion button:focus:not(:focus-visible) {
+  outline: unset;
+}
+
+.news-section .accordion .accordion-button:focus {
+  z-index: 3;
+  border-color: unset;
+  box-shadow: unset;
+}
+
+.news-section .accordion .accordion-button:not(.collapse) {
+  color: unset;
+  background-color: unset;
+  box-shadow: unset;
+}
+
+.news-section .accordion .accordion-item {
+  border: 1px solid #eee;
+  margin-bottom: 15px;
+  border-radius: var(--card-curve);
+  background: #fff;
+}
+
+/* Product List */
+.project-list .nav-link {
+  font-weight: 700;
+  font-size: 22px;
+  padding: 15px;
+  margin: 0;
+  list-style: none;
+  cursor: pointer;
+  float: left;
+  width: 33.333%;
+  text-align: center;
+  color: #4e5b61;
+  background: #fff !important;
+  border-bottom: 3px solid #eee;
+}
+
+.project-list .nav-link.active {
+  margin-bottom: -1px !important;
+  border-bottom: 3px var(--primary) solid !important;
+  color: var(--primary) !important;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  color: #495057;
+  background-color: #fff;
+  border-color: unset;
+}
 
 /* <!-- Footer --> */
 .footer {

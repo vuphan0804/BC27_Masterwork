@@ -19,3 +19,16 @@ window.addEventListener("scroll", () => {
   const header = document.getElementById("header");
   header.classList.toggle("sticky-header", window.scrollY > 0);
 });
+
+// Owl Carousel
+var owl = $(".owl-carousel");
+owl.owlCarousel({
+  items: 4,
+  // items change number for slider display on desktop
+
+  loop: true,
+  margin: 10,
+  autoplay: true,
+  autoplayTimeout: 3000,
+  autoplayHoverPause: true,
+});
